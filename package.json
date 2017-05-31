@@ -1,0 +1,25 @@
+{
+  "name": "wpversion",
+  "version": "1.0.1",
+  "description": "WordPress Version Detection",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonJThompson/WPVersionJS.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimonJThompson/WPVersionJS/issues"
+  },
+  "homepage": "https://github.com/SimonJThompson/WPVersionJS#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
