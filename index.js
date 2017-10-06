@@ -30,6 +30,8 @@ module.exports = {
 			// Get the feed.
 			request(target + 'feed/', function(error, response, body) {
 
+				if(error || !response.statusCode) return reject(false);
+
 				// Check for the generator tag.
 				var matches = body.match(/wordpress.org\/\?v=(\*|\d+(\.\d+){0,2}(\.\*)?)/);
 				if(matches) return resolve(matches[1]);
