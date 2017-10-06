@@ -1,6 +1,6 @@
 {
   "name": "wpversion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "WordPress Version Detection",
   "main": "index.js",
   "scripts": {
